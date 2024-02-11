@@ -20,6 +20,6 @@ from TestCenter import views as test_view
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('test/', test_view.test),
+    path('/', test_view.test),
     path('score/', test_view.score),
 ]
