@@ -1,0 +1,142 @@
+[
+  {
+    "question_number": 1,
+    "question": "What is Object-Oriented Programming (OOP)?",
+    "answer": "Object-Oriented Programming (OOP) is a programming paradigm that organizes code around objects, which are instances of classes. It emphasizes the concepts of encapsulation, inheritance, and polymorphism.",
+    "marks": 2,
+    "answer_score": 95
+  },
+  {
+    "question_number": 2,
+    "question": "How do you create an object in Python?",
+    "answer": "Python modules are files containing Python code that define functions, classes, and variables. They allow code reuse and organization, making it easier to manage and maintain larger projects.",
+    "marks": 2,
+    "answer_score": 90
+  },
+  {
+    "question_number": 3,
+    "question": "What is the main principle of Java programming?",
+    "answer": "Java follows the principle of \"write once, run anywhere\" (WORA), which means that Java code can be compiled into bytecode and executed on any platform that has a Java Virtual Machine (JVM).",
+    "marks": 2,
+    "answer_score": 98
+  },
+  {
+    "question_number": 4,
+    "question": "What is a stack?",
+    "answer": "A stack is an abstract data type that follows the First-In-First-Out (FIFO) principle. It supports two main operations: push (inserting an element onto the top of the stack) and pop (removing the topmost element from the stack). Stacks are often used for managing function calls, expression evaluation, and undo mechanisms.",
+    "marks": 2,
+    "answer_score": 93
+  },
+  {
+    "question_number": 5,
+    "question": "What is the difference between a stack and a heap?",
+    "answer": "A stack is used for local variables and function calls, and its memory allocation and deallocation are handled automatically. A heap is used for dynamically allocated memory and needs explicit memory management.",
+    "marks": 2,
+    "answer_score": 97
+  },
+  {
+    "question_number": 6,
+    "question": "What is the difference between a class and an object?",
+    "answer": "A class is a blueprint or template, while an object is an instance of that class. A class defines the structure and behavior of objects, while objects represent specific instances of the class.",
+    "marks": 2,
+    "answer_score": 96
+  },
+  {
+    "question_number": 7,
+    "question": "What is polymorphism in Python?",
+    "answer": "Polymorphism is the ability of an object to take on multiple forms or have multiple behaviors. In Python, polymorphism is achieved through method overriding and method overloading (using default argument values or variable-length arguments).",
+    "marks": 2,
+    "answer_score": 92
+  },
+  {
+    "question_number": 8,
+    "question": "What is the SOLID principle in OOP?",
+    "answer": "SOLID is an acronym for a set of design principles: a. Single Responsibility Principle (SRP), b. Open/Closed Principle (OCP), c. Liskov Substitution Principle (LSP), d. Interface Segregation Principle (ISP), e. Dependency Inversion Principle (DIP). These principles aim to make software designs more modular, maintainable, and extensible.",
+    "marks": 3,
+    "answer_score": 94
+  },
+  {
+    "question_number": 9,
+    "question": "What is the difference between breadth-first search (BFS) and depth-first search (DFS)?",
+    "answer": "Breadth-first search (BFS) and depth-first search (DFS) are graph traversal algorithms that visit all the nodes in a graph. The key difference is the order in which they explore the nodes. BFS visits all the neighbors of a node before moving to the next level, resembling a wave expanding from the starting point. DFS explores as far as possible along each branch before backtracking, going deeper into the graph.",
+    "marks": 3,
+    "answer_score": 98
+  },
+  {
+    "question_number": 10,
+    "question": "What is a binary search tree (BST)?",
+    "answer": "Answer not provided",
+    "marks": 3,
+    "answer_score": 0
+  },
+  {
+    "question_number": 11,
+    "question": "What is recursion?",
+    "answer": "Recursion is a programming technique in which a function calls itself directly or indirectly to solve a problem. It involves breaking down a problem into smaller subproblems, solving each subproblem recursively, and combining the results to obtain the final solution.",
+    "marks": 2,
+    "answer_score": 90
+  },
+  {
+    "question_number": 12,
+    "question": "What are the advantages and disadvantages of recursion?",
+    "answer": "Advantages of recursion include its ability to simplify code, solve problems that have a recursive nature more intuitively, and represent certain algorithms more elegantly. Disadvantages include potential performance issues due to overhead associated with function calls, stack overflow if the recursion depth is too large, and difficulty in understanding and debugging recursive algorithms for some programmers.",
+    "marks": 3,
+    "answer_score": 85
+  },
+  {
+    "question_number": 13,
+    "question": "What is a linked list?",
+    "answer": "A linked list is a linear data structure consisting of a sequence of elements called nodes, where each node contains a data field and a reference (link) to the next node in the sequence. Linked lists can be singly linked (each node has a reference to the next node) or doubly linked (each node has references to both the next and previous nodes).",
+    "marks": 2,
+    "answer_score": 95
+  },
+  {
+    "question_number": 14,
+    "question": "What are the advantages and disadvantages of linked lists?",
+    "answer": "Advantages of linked lists include dynamic memory allocation (allowing for efficient insertion and deletion of elements), flexibility in size (linked lists can grow or shrink dynamically), and efficient implementation of certain operations like inserting or deleting elements at the beginning or middle of the list. Disadvantages include the overhead of storing references (pointers) for each node, lack of random access (elements cannot be accessed directly by index), and slower traversal compared to arrays.",
+    "marks": 3,
+    "answer_score": 80
+  },
+  {
+    "question_number": 15,
+    "question": "What is a hash table?",
+    "answer": "A hash table (hash map) is a data structure that stores key-value pairs. It uses a hash function to compute an index (hash code) from the key, which is used to store and retrieve the corresponding value. Hash tables offer efficient insertion, deletion, and lookup operations (average-case time complexity O(1)) when the hash function distributes keys evenly across the table and handles collisions appropriately.",
+    "marks": 2,
+    "answer_score": 92
+  },
+  {
+    "question_number": 16,
+    "question": "What are the advantages and disadvantages of hash tables?",
+    "answer": "Advantages of hash tables include fast insertion, deletion, and lookup operations (average-case time complexity O(1)), efficient storage and retrieval of key-value pairs, and flexibility in handling large datasets. Disadvantages include the need for a good hash function to minimize collisions, potential for performance degradation in worst-case scenarios (e.g., if the hash function distributes keys poorly), and space overhead due to unused slots in the table.",
+    "marks": 3,
+    "answer_score": 87
+  },
+  {
+    "question_number": 17,
+    "question": "What is a binary search algorithm?",
+    "answer": "A binary search algorithm is an efficient search algorithm used to find the position of a target value within a sorted array. It works by repeatedly dividing the search interval in half and comparing the target value with the middle element of the interval. If the target value matches the middle element, the search is successful. Otherwise, the search continues in the lower or upper half of the interval, depending on the comparison result.",
+    "marks": 2,
+    "answer_score": 93
+  },
+  {
+    "question_number": 18,
+    "question": "What are the advantages and disadvantages of binary search?",
+    "answer": "Advantages of binary search include its efficiency (time complexity O(log n)), suitability for searching large sorted datasets, and simplicity of implementation. Disadvantages include the requirement for a sorted array, lack of flexibility in handling unsorted or dynamically changing datasets, and potential for errors if the array is not sorted properly.",
+    "marks": 3,
+    "answer_score": 88
+  },
+  {
+    "question_number": 19,
+    "question": "What is dynamic programming?",
+    "answer": "Dynamic programming is a method for solving complex problems by breaking them down into simpler subproblems and solving each subproblem only once. It involves storing the results of intermediate subproblems in a table (memoization) to avoid redundant computations and efficiently solve larger instances of the problem.",
+    "marks": 2,
+    "answer_score": 94
+  },
+  {
+    "question_number": 20,
+    "question": "What are the advantages and disadvantages of dynamic programming?",
+    "answer": "Advantages of dynamic programming include its ability to solve complex problems efficiently by breaking them down into smaller subproblems, improved time complexity compared to naive approaches, and versatility in handling various types of optimization and counting problems. Disadvantages include the need for careful problem decomposition and identification of optimal substructures, potential for high space complexity due to memoization, and difficulty in understanding and implementing dynamic programming solutions for some programmers.",
+    "marks": 3,
+    "answer_score": 90
+  }
+]

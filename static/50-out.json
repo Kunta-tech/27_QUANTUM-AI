@@ -1,0 +1,42 @@
+[
+  {
+    "question_number": 1,
+    "Question": "What is Object-Oriented Programming (OOP)?",
+    "Answer": "Object-Oriented Programming (OOP) is a programming paradigm that organizes code around objects, which are instances of classes. It emphasizes the concepts of encapsulation, inheritance, and polymorphism.",
+    "Score": 0,
+    "Review": "Your answer only mentions three out of the four core principles of OOP: encapsulation, inheritance, and polymorphism. Encapsulation refers to bundling data and methods that operate on that data within one unit, inheritance is a way for creating new classes from existing ones, and polymorphism allows different instances of the same class to be treated as if they are objects of a different class. Your answer does not mention any details about how these concepts work in practice or their benefits in software development. You need to provide more information to fully understand and explain OOP.",
+    "Answer-score": 0
+  },
+  {
+    "question_number": 2,
+    "Question": "How do you create an object in Python?",
+    "Answer": "Python modules are files containing Python code that define functions, classes, and variables. They allow code reuse and organization, making it easier to manage and maintain larger projects.",
+    "Score": 100,
+    "Review": "The answer is correct! In Python, objects are created by creating instances of a class. To create an object in Python, you need to know the name of the module that contains the class you want to use. You can then call the constructor (__init__() method) of the class to initialize its attributes and properties.",
+    "Answer-score": 100
+  },
+  {
+    "question_number": 3,
+    "Question": "What is the main principle of Java programming?",
+    "Answer": "Java follows the principle of \"write once, run anywhere\" (WORA), which means that Java code can be compiled into bytecode and executed on any platform that has a Java Virtual Machine (JVM).",
+    "Score": 100,
+    "Review": "Correct! The main principle of Java programming is to write code that runs on different platforms by using the JVM, which translates Java code into bytecode that can be executed anywhere. This makes Java a popular choice for developing cross-platform applications and software.",
+    "Answer-score": 100
+  },
+  {
+    "question_number": 4,
+    "Question": "What is a stack?",
+    "Answer": "A stack is an abstract data type that follows the First-In-First-Out (FIFO) principle. It supports two main operations: push (inserting an element onto the top of the stack) and pop (removing the topmost element from the stack). Stacks are often used for managing function calls, expression evaluation, and undo mechanisms.",
+    "Score": 90,
+    "Review": "Your answer is correct and concise. You have explained what a stack is, how it works, and some common applications of it. Good job! To improve your score, you could also mention the memory allocation and deallocation aspects of a stack, such as using an array or a linked list to store the elements, and how to avoid overflow and underflow errors.",
+    "Answer-score": 90
+  },
+  {
+    "question_number": 5,
+    "Question": "What is the difference between a stack and a heap?",
+    "Answer": "A stack is used for local variables and function calls, and its memory allocation and deallocation are handled automatically. A heap is used for dynamically allocated memory and needs explicit memory management.",
+    "Score": 95,
+    "Review": "Correct! The main differences between stacks and heaps include their purposes - stacks are used for storing data temporarily while heaps are used to store larger amounts of data. Stacks are implemented as a fixed-size array, whereas heaps can be either continuous or non-continuous depending on the program's needs. It is also important to note that stack-based implementations may run out of memory if too many items are stored on it, while heap-based implementations have larger memory requirements but offer more flexibility in terms of memory allocation and deallocation.",
+    "Answer-score": 95
+  }
+]
