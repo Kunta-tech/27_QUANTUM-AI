@@ -45,7 +45,6 @@ body {
 }
 
 .submit-btn {
-    display: block;
     width: 300px;
     padding: 15px;
     margin-top: 10px;
@@ -54,10 +53,7 @@ body {
     color: #fff;
     border: none;
     border-radius: 5px;
-    position: absolute;
-    top:240%;
     left: 40%;
-
 }
 
 .submit-btn:hover {

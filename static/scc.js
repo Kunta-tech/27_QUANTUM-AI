@@ -2,7 +2,7 @@
 let fetchedHTML = ["<div class=\"container\"><div class=\"question\">","</div><p>","</p><p><b>Review: </b>","</div>"];
 function question(q,a,r) {
     const newQues = fetchedHTML[0] + q + fetchedHTML[1] + a + fetchedHTML[2] + r + fetchedHTML[3]
-    console.log(newQues)
+    // console.log(newQues)
     document.getElementById('questions').innerHTML += newQues
 }
 

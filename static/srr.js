@@ -1,7 +1,7 @@
 let fetchedHTML = ["<div class=\"container\"><div class=\"question\">","</div><textarea name=\"textfield\" id=\"textfield\" cols=\"50\" rows=\"3\">","</textarea></div>"];
 function question(q,a) {
     const newQues = fetchedHTML[0] + q + fetchedHTML[1] + a + fetchedHTML[2]
-    console.log(newQues)
+    // console.log(newQues)
     document.getElementById('questions').innerHTML += newQues
 }
 
